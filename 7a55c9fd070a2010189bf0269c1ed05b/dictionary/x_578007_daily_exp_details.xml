@@ -4,8 +4,14 @@
         <element attributes="edge_encryption_enabled=true" label="Date of Expense" max_length="40" name="date_of_expense" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Month" max_length="40" name="month" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name of Person" max_length="40" name="name_of_person" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Particulars" max_length="40" name="particulars" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Particulars" max_length="40" name="particulars" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Settle Date" max_length="40" name="settle_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Total Amount" max_length="40" name="total_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Amount" max_length="40" name="total_amount" read_only="true" type="string"/>
     </element>
 </database>
