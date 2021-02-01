@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Add 2 values">db98b5f107ca2010189bf0269c1ed098</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>CONTENT_PAGE</link_type>
+        <map_page/>
+        <mobile_title>Add 2 values</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:44:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09c8fdfd078a2010189bf0269c1ed021</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope>
+        <sys_update_name>sys_app_module_09c8fdfd078a2010189bf0269c1ed021</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:45:04</sys_updated_on>
+        <timeline_page/>
+        <title>Add</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</application>
+        <file_path/>
+        <instance_id>5342821ddbce3fc442b321c405961900</instance_id>
+        <instance_name>dev87175</instance_name>
+        <name>sys_app_module_09c8fdfd078a2010189bf0269c1ed021</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Add 2 values">db98b5f107ca2010189bf0269c1ed098</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>CONTENT_PAGE</link_type><map_page/><mobile_title>Add 2 values</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-01 08:44:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>09c8fdfd078a2010189bf0269c1ed021</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Add</sys_name><sys_overrides/><sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package><sys_policy/><sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope><sys_update_name>sys_app_module_09c8fdfd078a2010189bf0269c1ed021</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-01 08:45:04</sys_updated_on><timeline_page/><title>Add</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1806684956</payload_hash>
+        <record_name>Add</record_name>
+        <reverted_from/>
+        <source>1e1941b1074a2010189bf0269c1ed0e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:45:04</sys_created_on>
+        <sys_id>1629f53507ca2010189bf0269c1ed072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775cc44c340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:45:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5e29f53527ca2010002c907fb0718d71</update_guid>
+        <update_guid_history>5e29f53527ca2010002c907fb0718d71:-1806684956,8719b9f1acca2010e862fe8f34b9c025:-2114760006,470975f1f7ca20100fa193909b80de19:-123755873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Add">39bb35b507ca2010189bf0269c1ed0e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:56:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>00792e9528f949c8852f10b44221c2e4</sys_id>
+        <sys_metadata>09c8fdfd078a2010189bf0269c1ed021</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add</sys_name>
+        <sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope>
+        <sys_scope_delete display_value="">2d39c82f2fd540fcb375628e564e4c10</sys_scope_delete>
+        <sys_update_name>sys_app_module_09c8fdfd078a2010189bf0269c1ed021</sys_update_name>
+        <sys_update_version display_value="sys_app_module_09c8fdfd078a2010189bf0269c1ed021">1629f53507ca2010189bf0269c1ed072</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:56:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Adding On change Script</description>
+        <field>u_2nd_number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Adding On change Script</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+jslog("LOAD");
+      return;
+   }
+	jslog("CHANGE");
+	var ga = new GlideAjax('calculator');
+	jslog("FIRST");
+    ga.addParam('sysparm_name', "calculatesum");
+    ga.addParam('sysparm_field1', g_form.getValue("u_1st_number"));
+	ga.addParam('sysparm_field2', g_form.getValue("u_2nd_number"));
+	jslog("before asnwer");
+    ga.getXMLAnswer(function(response) {
+		jslog("HELLLLOOOOOO - >",response);
+        g_form.setValue('final_value', response);
+    });
+	
+	jslog("AFTER ANSWER");
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 10:27:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19becaf1070e2010189bf0269c1ed032</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Adding On change Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope>
+        <sys_update_name>sys_script_client_19becaf1070e2010189bf0269c1ed032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 11:37:31</sys_updated_on>
+        <table>x_578007_daily_exp_addition</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

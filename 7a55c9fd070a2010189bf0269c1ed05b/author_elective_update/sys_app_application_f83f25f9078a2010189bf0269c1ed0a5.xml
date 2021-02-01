@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Form and calculate</description>
+        <device_type>browser</device_type>
+        <hint>Form and calculate</hint>
+        <name/>
+        <order/>
+        <roles>admin,user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:01:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f83f25f9078a2010189bf0269c1ed0a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily Expense</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope>
+        <sys_update_name>sys_app_application_f83f25f9078a2010189bf0269c1ed0a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:01:32</sys_updated_on>
+        <title>Daily Expense</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</application>
+        <file_path/>
+        <instance_id>5342821ddbce3fc442b321c405961900</instance_id>
+        <instance_name>dev87175</instance_name>
+        <name>sys_app_application_f83f25f9078a2010189bf0269c1ed0a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="">Custom Applications</category><description>Form and calculate</description><device_type>browser</device_type><hint>Form and calculate</hint><name/><order/><roles>admin,user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-01 08:01:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f83f25f9078a2010189bf0269c1ed0a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Daily Expense</sys_name><sys_overrides/><sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package><sys_policy/><sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope><sys_update_name>sys_app_application_f83f25f9078a2010189bf0269c1ed0a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-01 08:01:32</sys_updated_on><title>Daily Expense</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>27530973</payload_hash>
+        <record_name>Daily Expense</record_name>
+        <reverted_from/>
+        <source>1e1941b1074a2010189bf0269c1ed0e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:01:32</sys_created_on>
+        <sys_id>b03f25f9078a2010189bf0269c1ed0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775c9c71c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:01:32</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>f83f25f9d48a201057e77462e4e7b8a8</update_guid>
+        <update_guid_history>f83f25f9d48a201057e77462e4e7b8a8:27530973</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Daily Expense">0431b5fd078a2010189bf0269c1ed011</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:10:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4380f1501d5d48a69f8bd6c1202a2e04</sys_id>
+        <sys_metadata>f83f25f9078a2010189bf0269c1ed0a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily Expense</sys_name>
+        <sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope>
+        <sys_scope_delete display_value="">2d39c82f2fd540fcb375628e564e4c10</sys_scope_delete>
+        <sys_update_name>sys_app_application_f83f25f9078a2010189bf0269c1ed0a5</sys_update_name>
+        <sys_update_version display_value="sys_app_application_f83f25f9078a2010189bf0269c1ed0a5">b03f25f9078a2010189bf0269c1ed0a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

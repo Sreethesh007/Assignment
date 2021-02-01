@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Addition" max_length="40" name="x_578007_daily_exp_addition" sizeclass="0" type="collection">
+        <element default="0" display="true" label="Final value" max_length="40" name="final_value" read_only="true" type="integer"/>
+        <element default="0" label="1st Number" max_length="40" name="u_1st_number" type="integer"/>
+        <element default="0" label="2nd Number" max_length="40" name="u_2nd_number" type="integer"/>
+    </element>
+</database>

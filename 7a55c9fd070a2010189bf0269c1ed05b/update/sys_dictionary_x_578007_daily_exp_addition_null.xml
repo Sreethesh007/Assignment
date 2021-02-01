@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_578007_daily_exp_details">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_578007_daily_exp_addition">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -30,7 +35,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_578007_daily_exp_details</name>
+        <name>x_578007_daily_exp_addition</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,14 +52,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-01 05:07:47</sys_created_on>
-        <sys_id>236701b1074a2010189bf0269c1ed04d</sys_id>
+        <sys_created_on>2021-02-01 08:54:15</sys_created_on>
+        <sys_id>f44bbd7507ca2010189bf0269c1ed037</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_578007_daily_exp_details</sys_name>
+        <sys_name>x_578007_daily_exp_addition</sys_name>
         <sys_package display_value="Daily Expense" source="x_578007_daily_exp">7a55c9fd070a2010189bf0269c1ed05b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Daily Expense">7a55c9fd070a2010189bf0269c1ed05b</sys_scope>
-        <sys_update_name>sys_dictionary_x_578007_daily_exp_details_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_578007_daily_exp_addition_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2021-02-01 10:44:42</sys_updated_on>
         <table_reference>false</table_reference>
