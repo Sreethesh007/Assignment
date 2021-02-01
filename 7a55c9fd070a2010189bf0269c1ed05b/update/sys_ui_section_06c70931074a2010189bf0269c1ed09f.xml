@@ -1,114 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="06c70931074a2010189bf0269c1ed09f" sys_domain="global" table="x_578007_daily_exp_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>settle_date</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>46c745b1074a2010189bf0269c1ed0fe</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>a0bc213d078a2010189bf0269c1ed03a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>settle_date</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>cac745b1074a2010189bf0269c1ed0fe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name_of_person</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>4ec745b1074a2010189bf0269c1ed0fe</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>24bc213d078a2010189bf0269c1ed03a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_of_expense</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>cec745b1074a2010189bf0269c1ed0fe</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>a4bc213d078a2010189bf0269c1ed03a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>particulars</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>42c745b1074a2010189bf0269c1ed0ff</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>28bc213d078a2010189bf0269c1ed03a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_2</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>a8bc213d078a2010189bf0269c1ed03a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_3</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>2cbc213d078a2010189bf0269c1ed03a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>c2c745b1074a2010189bf0269c1ed0ff</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>acbc213d078a2010189bf0269c1ed03a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>month</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>46c745b1074a2010189bf0269c1ed0ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_amount</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>c6c745b1074a2010189bf0269c1ed0ff</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>20bc213d078a2010189bf0269c1ed03b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,29 +116,29 @@
             <element>amount</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>4ac745b1074a2010189bf0269c1ed0ff</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>a0bc213d078a2010189bf0269c1ed03b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>total_amount</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 05:09:19</sys_created_on>
-            <sys_id>cac745b1074a2010189bf0269c1ed0ff</sys_id>
+            <sys_created_on>2021-02-01 07:50:36</sys_created_on>
+            <sys_id>24bc213d078a2010189bf0269c1ed03b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_578007_daily_exp_details" sys_domain="global" view="Default view">06c70931074a2010189bf0269c1ed09f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 05:09:19</sys_updated_on>
+            <sys_updated_on>2021-02-01 07:50:36</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

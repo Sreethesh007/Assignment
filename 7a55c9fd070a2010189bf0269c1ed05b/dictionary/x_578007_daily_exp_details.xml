@@ -4,14 +4,21 @@
         <element attributes="edge_encryption_enabled=true" label="Date of Expense" max_length="40" name="date_of_expense" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Month" max_length="40" name="month" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name of Person" max_length="40" name="name_of_person" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Particulars" max_length="40" name="particulars" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Particulars" max_length="40" name="particulars" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Settle Date" max_length="40" name="settle_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Total Amount" max_length="40" name="total_amount" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of expense" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Grocery" sequence="0" value="grocery"/>
+                <element inactive_on_update="false" label="Home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Electric" sequence="2" value="electric"/>
+                <element inactive_on_update="false" label="Car" sequence="3" value="car"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" dependent="u_choice_2" dependent_on_field="u_choice_2" label="New Reference" max_length="32" name="u_reference_1" reference="x_578007_daily_exp_details" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_string_3" type="string"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
     </element>
 </database>
