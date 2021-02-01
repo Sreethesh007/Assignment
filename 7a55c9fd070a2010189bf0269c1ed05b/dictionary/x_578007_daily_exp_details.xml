@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Details" max_length="40" name="x_578007_daily_exp_details" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Amount" max_length="40" name="amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Expense" max_length="40" name="date_of_expense" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Month" max_length="40" name="month" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Person" max_length="40" name="name_of_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Particulars" max_length="40" name="particulars" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Settle Date" max_length="40" name="settle_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Amount" max_length="40" name="total_amount" type="string"/>
+    </element>
+</database>
